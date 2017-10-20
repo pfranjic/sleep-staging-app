@@ -17,4 +17,4 @@ Qt framework
 Armadillo, Boost, FFTW3, Sigpack, Shark
 
 ### Screenshot
-![sleep staging app image](https://image.ibb.co/mXifBR/ss.png)
+![sleep staging app image](https://image.ibb.co/j2x30m/ss.png)
