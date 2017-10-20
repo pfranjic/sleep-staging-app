@@ -73,7 +73,7 @@ pair<mat, float> MLAlgorithms::SVMFunction(map<string, string> algorithmInfo, Cl
 		total++;
 	}
 
-	return std::make_pair(calculateRecallAndPrecision(output, correctLabels), (correct / total));
+	return std::make_pair(calculateRecallAndPrecision(output, correctLabels), ((float)correct / total));
 
 }
 mat MLAlgorithms::calculateConfusionMatrix(vector<unsigned int> output, vector<unsigned int> correctLabels)

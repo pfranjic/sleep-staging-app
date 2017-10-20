@@ -318,8 +318,6 @@ void MainWindow::sendMLAlgorithmInfoSignal() {
 				QWidget *widget = currentLayout->itemAt(i)->widget();
 				if (dynamic_cast<TextId*>(widget))
 				{
-					outputText->appendPlainText(dynamic_cast<TextId*>(widget)->getTextId());
-					outputText->appendPlainText(dynamic_cast<TextId*>(widget)->getValue());
 					algorithmInfo.insert(pair <string, string>(dynamic_cast<TextId*>(widget)->getTextId().toStdString(),
 						dynamic_cast<TextId*>(widget)->getValue().toStdString()));
 				}
