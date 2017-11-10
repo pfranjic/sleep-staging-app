@@ -1,5 +1,5 @@
-# sleep-staging-app
-A small Qt GUI application I made in Visual Studio in the process of studying C++. The app predicts sleep stages for an individual polysomnographic recording, having analyzed a part of it.
+# sleep-staging-app (in progress)
+A small Qt GUI application I made in Visual Studio in the process of studying C++ (and Visual Studio). The app predicts sleep stages for an individual polysomnographic recording, having analyzed a part of it.
 
 ## Input
 The app lets the user load polysomnographic recordings in EDF format. Currently it supports importing of SC* files from the publicly available [Sleep-EDF Expanded](https://physionet.org/pn4/sleep-edfx/) Physionet database, alongside the associated annotations in .txt format. The app analyzes the Pz-Oz electroencephalographic (EEG) channel from the polysomnographic recording. The signal is segmented into 30-second epoch and each epoch has an associated annotation - one of the 6 stages of wakefulness/sleep according to the Rechtschaffen-Kales criteria (wakefulness, sleep stages 1, 2, 3, 4 and REM phase). The data is available at the [Physionet ATM](https://physionet.org/cgi-bin/atm/ATM)
